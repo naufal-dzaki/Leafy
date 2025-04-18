@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Leafy - Dipetik dari Kebun, Dihidangkan untuk Anda</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">Leafy</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                    <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="product.html" class="nav-item nav-link">Produk</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link">Kontak Kami</a>
+                    <a href="suggestion.html" class="nav-item nav-link">Kritik & Saran</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown">Nikmati Kebaikan Organik Langsung dari Alam</h1>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Mulai Hidup Sehat Bersama Leafy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 mb-5 animated slideInDown">Sayur & Buah Organik, Untuk Hidup Lebih Baik</h1>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Mulai Hidup Sehat Bersama Leafy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="img/about.webp">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4">Buah & Sayur Organik Hidroponik Terbaik dari Leafy</h1>
+                    <p class="mb-4">Leafy menghadirkan hasil pertanian organik dari sistem hidroponik modern — tanpa tanah, tanpa pestisida, dan penuh nutrisi. Dipanen langsung dari petani lokal, setiap buah dan sayur kami tumbuh dalam lingkungan yang higienis, ramah lingkungan, dan selalu segar saat sampai di tangan Anda.</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Ditanam dengan Sistem Hidroponik Modern</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Dipetik Langsung dari Petani Lokal Pilihan</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Kualitas Premium & Ramah Lingkungan</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Belanja Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light bg-icon my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Kenapa Harus Leafy?</h1>
+                <p>Leafy menghadirkan buah dan sayur segar dari sistem hidroponik modern. Kami memastikan setiap proses penanaman hingga panen dilakukan secara alami, higienis, dan ramah lingkungan.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
+                        <h4 class="mb-3">Proses Tumbuh Alami</h4>
+                        <p> Sayur dan buah ditanam dengan sistem hidroponik yang menjaga kesegaran dan kualitas alami.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h4 class="mb-3">Segar dan Bergizi Tinggi</h4>
+                        <p>Setiap hasil panen Leafy dipetik dalam kondisi terbaik, kaya nutrisi, dan langsung didistribusikan untuk menjaga kesegarannya.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <h4 class="mb-3">Aman & Higenis</h4>
+                        <p>Produk Leafy ditanam di lingkungan bersih dan terkontrol tanpa penggunaan pestisida atau bahan kimia, menjadikannya aman untuk dikonsumsi setiap hari.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3">Produk Pilihan Leafy</h1>
+                        <p>Temukan berbagai pilihan buah dan sayur dengan kualitas terbaik untuk keluarga Anda.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-semua">Semua</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-buah">Buah</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-sayur">Sayur</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-semua" class="tab-pane fade show active p-0">
+                  <div class="row g-4" id="semua-products"></div>
+                </div>
+                <div id="tab-buah" class="tab-pane fade p-0">
+                  <div class="row g-4" id="buah-products"></div>
+                </div>
+                <div id="tab-sayur" class="tab-pane fade p-0">
+                  <div class="row g-4" id="sayur-products"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-white mb-3">Kunjungi Kebun Kami</h1>
+                    <p class="text-white mb-0">Jelajahi kebun hidroponik kami yang menghasilkan buah dan sayur segar. Temukan langsung kualitas terbaik yang kami tawarkan untuk kebutuhan keluarga Anda.</p>
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="">Kunjungi Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light bg-icon py-6 mb-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Apa kata mereka?</h1>
+                <p>Yuk, simak pengalaman para pelanggan yang udah nyobain buah dan sayur segar dari Leafy!</p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Awalnya iseng coba, ternyata sayurnya fresh banget. Jadi makin rajin masak di rumah!</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Ayu Lestari</h5>
+                            <span>Ibu Rumah Tangga</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Buahnya manis dan seger, cocok buat camilan sehat di kantor. Repeat order? Of course!</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Rizky Ananda</h5>
+                            <span>Karyawan Swasta</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Packaging-nya rapi, pengirimannya cepat, dan yang paling penting… sayurnya super fresh!</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Dian Pratiwi</h5>
+                            <span>Food Blogger</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Gue suka banget konsep hidroponik-nya Leafy. Lebih sehat, dan rasanya beda aja—lebih fresh gitu.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="img/testimonial-4.png" alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Naufal Dzaki</h5>
+                            <span>Mahasiswa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Blog Terbaru</h1>
+                <p>Temukan informasi, tips, dan inspirasi seputar gaya hidup sehat dan pertanian hidroponik.</p>
+            </div>
+            <div class="row g-4" id="blog-container">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">Leafy</h1>
+                    <p>Dipetik dari Kebun, Dihidangkan untuk Anda</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Jln. Granit Nila, KBD, Gresik</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+62 895-4132-15176</p>
+                    <p><i class="fa fa-envelope me-3"></i>information@leafy.com</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a class="btn btn-link d-block" href="index.html">Beranda</a>
+                            <a class="btn btn-link d-block" href="about.html">Tentang Kami</a>
+                            <a class="btn btn-link d-block" href="product.html">Produk</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="btn btn-link d-block" href="blog.html">Blog</a>
+                            <a class="btn btn-link d-block" href="contact.html">Kontak Kami</a>
+                            <a class="btn btn-link d-block" href="suggestion.html">Kritik & Saran</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Leafy</a>. All rights reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Developed by <a href="https://www.linkedin.com/in/naufal-dzaki/" target="_blank">Muhammad Naufal Dzaki Adani</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Product -->
+    <script>
+        const products = [
+            {
+                title: "Tomat",
+                priceBefore: 35000,
+                priceAfter: 25000,
+                img: "img/product/product-tomat.jpg",
+                category: "buah"
+            },
+            {
+                title: "Stroberi Segar",
+                priceBefore: 45000,
+                priceAfter: 38000,
+                img: "img/product/product-stroberi.jpg",
+                category: "buah"
+            },
+            {
+                title: "Bayam Hijau",
+                priceBefore: 15000,
+                priceAfter: 12000,
+                img: "img/product/product-bayam.jpg",
+                category: "sayur"
+            },
+            {
+                title: "Selada Butterhead",
+                priceBefore: 20000,
+                priceAfter: 16000,
+                img: "img/product/product-selada.jpg",
+                category: "sayur"
+            }
+        ];
+
+        const rupiah = (value) => {
+            return "Rp" + value.toLocaleString("id-ID");
+        }
+
+        const renderProducts = (categoryId, categoryName) => {
+            const container = document.getElementById(`${categoryId}-products`);
+            container.innerHTML = "";
+
+            let productItems = categoryName == "semua" 
+                ? products
+                : products.filter(product => product.category === categoryName);
+
+            productItems.forEach((product, index) => {
+                const card = `
+                <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+                    <div class="product-item">
+                    <div class="position-relative bg-light overflow-hidden">
+                        <img class="img-fluid w-100" src="${product.img}" alt="${product.title}">
+                        ${index === 0 ? '<div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>' : ''}
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5 mb-2" href="#">${product.title}</a>
+                        <span class="text-primary me-1">${rupiah(product.priceAfter)}</span>
+                        <span class="text-body text-decoration-line-through">${rupiah(product.priceBefore)}</span>
+                    </div>
+                    <div class="d-flex border-top">
+                        <small class="w-50 text-center border-end py-2">
+                        <a class="text-body" href="#"><i class="fa fa-eye text-primary me-2"></i>Detail</a>
+                        </small>
+                        <small class="w-50 text-center py-2">
+                        <a class="text-body" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Keranjang</a>
+                        </small>
+                    </div>
+                    </div>
+                </div>
+                `;
+                container.innerHTML += card;
+            });
+
+            container.innerHTML += `                  
+                <div class="col-12 text-center">
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="product.html">Lihat Produk Lain</a>
+                </div>
+                `;
+        };
+
+        renderProducts("semua", "semua");
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector('a[href="#tab-semua"]').addEventListener("click", function () {
+                renderProducts("semua", "semua");
+            });
+            
+            document.querySelector('a[href="#tab-buah"]').addEventListener("click", function () {
+                renderProducts("buah", "buah");
+            });
+
+            document.querySelector('a[href="#tab-sayur"]').addEventListener("click", function () {
+                renderProducts("sayur", "sayur");
+                console.log("clicked")
+            });
+        });
+    </script>
+
+    <!-- Blog -->
+    <script>
+        const blogData = [
+            {
+                title: "Panduan Mudah Memulai Kebun Hidroponik di Rumah",
+                image: "img/blog-1.jpg",
+                date: "15 Apr, 2025",
+                link: "#"
+            },
+            {
+                title: "Manfaat Konsumsi Sayur & Buah Segar untuk Kesehatan",
+                image: "img/blog-2.jpg",
+                date: "10 Apr, 2025",
+                link: "#"
+            },
+            {
+                title: "Tips Menyimpan Sayur agar Tetap Segar Lebih Lama",
+                image: "img/blog-3.jpg",
+                date: "03 Apr, 2025",
+                link: "#"
+            }
+        ];
+    
+        const blogContainer = document.getElementById('blog-container');
+    
+        blogData.forEach((blog, index) => {
+            const delay = (index + 1) * 0.2;
+    
+            const blogCard = `
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="${delay}s">
+                    <img class="img-fluid" src="${blog.image}" alt="">
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4" href="${blog.link}">${blog.title}</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                            <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>${blog.date}</small>
+                        </div>
+                    </div>
+                </div>
+            `;
+    
+            blogContainer.insertAdjacentHTML('beforeend', blogCard);
+        });
+    </script>    
+</body>
+</html>
