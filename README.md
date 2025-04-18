@@ -26,7 +26,7 @@ Leafy hadir sebagai solusi modern untuk masyarakat yang ingin hidup lebih sehat 
 | **Tentang Kami**  | Menjelaskan latar belakang Leafy, metode hidroponik yang digunakan, serta nilai-nilai yang diusung. |
 | **Produk**        | Menampilkan daftar buah dan sayur hidroponik lengkap dengan harga dan gambar. |
 | **Blog**          | Kumpulan artikel seputar hidup sehat, tips pertanian, dan informasi berguna lainnya. |
-| **Kontak Kami**   | Halaman formulir untuk pengunjung yang ingin menghubungi tim Leafy secara langsung. |
+| **Hubungi Kami**   | Halaman formulir untuk pengunjung yang ingin menghubungi tim Leafy secara langsung. |
 | **Kritik & Saran**| Formulir dan tabel yang menampilkan saran, testimoni, maupun kritik dari pengguna. |
 
 ---
